@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Surefire suite</th></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num attn">4</td><td class="num">98,423</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="4">com.calculator.tests.PageDashboardTests</td><td><a href="#m0">DivideByZero</a></td><td rowspan="1">1620686532205</td><td rowspan="1">1088</td></tr><tr class="failedeven"><td><a href="#m1">MaximumZeroShouldBeOneDigit</a></td><td rowspan="1">1620686570664</td><td rowspan="1">986</td></tr><tr class="failedeven"><td><a href="#m2">UserShouldNotClickOnDotDirectly</a></td><td rowspan="1">1620686550486</td><td rowspan="1">896</td></tr><tr class="failedeven"><td><a href="#m3">UserShouldNotClickOnOperationsDirectly</a></td><td rowspan="1">1620686560691</td><td rowspan="1">812</td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="8">com.calculator.tests.PageDashboardTests</td><td><a href="#m4">Addition</a></td><td rowspan="1">1620686495540</td><td rowspan="1">1026</td></tr><tr class="passedeven"><td><a href="#m5">Division</a></td><td rowspan="1">1620686515822</td><td rowspan="1">1045</td></tr><tr class="passedeven"><td><a href="#m6">FractionalOperations</a></td><td rowspan="1">1620686523834</td><td rowspan="1">1519</td></tr><tr class="passedeven"><td><a href="#m7">Multiply</a></td><td rowspan="1">1620686508113</td><td rowspan="1">1068</td></tr><tr class="passedeven"><td><a href="#m8">NavigateToUrl</a></td><td rowspan="1">1620686490857</td><td rowspan="1">114</td></tr><tr class="passedeven"><td><a href="#m9">RandomClickAndDelete</a></td><td rowspan="1">1620686540870</td><td rowspan="1">1391</td></tr><tr class="passedeven"><td><a href="#m10">Subtraction</a></td><td rowspan="1">1620686501602</td><td rowspan="1">1030</td></tr><tr class="passedeven"><td><a href="#m11">SubtractionForNegativeResult</a></td><td rowspan="1">1620686581078</td><td rowspan="1">1405</td></tr></tbody>
+</table>
+<h2>Surefire test</h2><h3 id="m0">com.calculator.tests.PageDashboardTests#DivideByZero</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: They are not equal:  expected [Undefined] but found [Infinity]
+	at com.calculator.tests.PageDashboardTests.DivideByZero(PageDashboardTests.java:148)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.calculator.tests.PageDashboardTests#MaximumZeroShouldBeOneDigit</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: They are not equal:  expected [0] but found [000]
+	at com.calculator.tests.PageDashboardTests.MaximumZeroShouldBeOneDigit(PageDashboardTests.java:215)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.calculator.tests.PageDashboardTests#UserShouldNotClickOnDotDirectly</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: They are not equal:  expected [] but found [...]
+	at com.calculator.tests.PageDashboardTests.UserShouldNotClickOnDotDirectly(PageDashboardTests.java:184)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.calculator.tests.PageDashboardTests#UserShouldNotClickOnOperationsDirectly</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: They are not equal:  expected [] but found [**]
+	at com.calculator.tests.PageDashboardTests.UserShouldNotClickOnOperationsDirectly(PageDashboardTests.java:199)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.calculator.tests.PageDashboardTests#Addition</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.calculator.tests.PageDashboardTests#Division</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.calculator.tests.PageDashboardTests#FractionalOperations</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.calculator.tests.PageDashboardTests#Multiply</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.calculator.tests.PageDashboardTests#NavigateToUrl</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.calculator.tests.PageDashboardTests#RandomClickAndDelete</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.calculator.tests.PageDashboardTests#Subtraction</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.calculator.tests.PageDashboardTests#SubtractionForNegativeResult</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

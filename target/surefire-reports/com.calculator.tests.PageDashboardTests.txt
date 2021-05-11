@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.calculator.tests.PageDashboardTests
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 99.221 s <<< FAILURE! - in com.calculator.tests.PageDashboardTests
+com.calculator.tests.PageDashboardTests.DivideByZero  Time elapsed: 1.096 s  <<< FAILURE!
+java.lang.AssertionError: They are not equal:  expected [Undefined] but found [Infinity]
+	at com.calculator.tests.PageDashboardTests.DivideByZero(PageDashboardTests.java:148)
+
+com.calculator.tests.PageDashboardTests.UserShouldNotClickOnDotDirectly  Time elapsed: 0.857 s  <<< FAILURE!
+java.lang.AssertionError: They are not equal:  expected [] but found [...]
+	at com.calculator.tests.PageDashboardTests.UserShouldNotClickOnDotDirectly(PageDashboardTests.java:184)
+
+com.calculator.tests.PageDashboardTests.UserShouldNotClickOnOperationsDirectly  Time elapsed: 0.667 s  <<< FAILURE!
+java.lang.AssertionError: They are not equal:  expected [] but found [**]
+	at com.calculator.tests.PageDashboardTests.UserShouldNotClickOnOperationsDirectly(PageDashboardTests.java:199)
+
+com.calculator.tests.PageDashboardTests.MaximumZeroShouldBeOneDigit  Time elapsed: 0.933 s  <<< FAILURE!
+java.lang.AssertionError: They are not equal:  expected [0] but found [000]
+	at com.calculator.tests.PageDashboardTests.MaximumZeroShouldBeOneDigit(PageDashboardTests.java:215)
+

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.calculator.tests.PageDashboardTests" time="99.221" tests="12" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/tutku/eclipse-workspace/TalentryChallangeProject/target/test-classes:/Users/tutku/eclipse-workspace/TalentryChallangeProject/target/classes:/Users/tutku/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/tutku/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/tutku/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/tutku/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/tutku/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/tutku/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/tutku/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/tutku/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/tutku/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/tutku/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/tutku/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/tutku/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/tutku/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/tutku/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/tutku/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/tutku/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/tutku/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/tutku/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/tutku/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/tutku/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/tutku/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/tutku/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/tutku/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/tutku/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/tutku/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/tutku/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="TR"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.9.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/tutku/eclipse-workspace/TalentryChallangeProject/target/surefire/surefirebooter16966293522333780704.jar /Users/tutku/eclipse-workspace/TalentryChallangeProject/target/surefire 2021-05-11T00-41-23_223-jvmRun1 surefire1029553727167706869tmp surefire_09257460087063627430tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/tutku/eclipse-workspace/TalentryChallangeProject/target/test-classes:/Users/tutku/eclipse-workspace/TalentryChallangeProject/target/classes:/Users/tutku/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/tutku/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/tutku/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/tutku/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/tutku/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/tutku/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/tutku/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/tutku/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/tutku/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/tutku/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/tutku/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/tutku/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/tutku/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/tutku/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/tutku/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/tutku/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/tutku/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/tutku/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/tutku/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/tutku/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/tutku/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/tutku/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/tutku/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/tutku/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/tutku/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/tutku/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/tutku"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.9.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/tutku/eclipse-workspace/TalentryChallangeProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/tutku/eclipse-workspace/TalentryChallangeProject/target/surefire/surefirebooter16966293522333780704.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.9+7-LTS"/>
+    <property name="user.name" value="tutku"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/Users/tutku/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/x0/yl748jk56vd5qyv479czydy40000gn/T/"/>
+    <property name="java.version" value="11.0.9"/>
+    <property name="user.dir" value="/Users/tutku/eclipse-workspace/TalentryChallangeProject"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="webdriver.gecko.driver" value="src/main/resources/geckodriver"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/tutku/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.9+7-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="NavigateToUrl" classname="com.calculator.tests.PageDashboardTests" time="0.081">
+    <system-out><![CDATA[Method set up 
+]]></system-out>
+    <system-err><![CDATA[1620686484504	geckodriver	INFO	Listening on 127.0.0.1:28892
+1620686484716	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/x0/yl748jk56vd5qyv479czydy40000gn/T/rust_mozprofilelTQ1C4"
+1620686485503	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620686488489	Marionette	INFO	Listening on port 60606
+1620686488544	Marionette	WARN	TLS certificate errors will be ignored for this session
+May 11, 2021 12:41:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Addition" classname="com.calculator.tests.PageDashboardTests" time="1.004">
+    <system-out><![CDATA[Method tear down
+Method set up 
+]]></system-out>
+    <system-err><![CDATA[1620686490988	geckodriver	INFO	Listening on 127.0.0.1:5275
+1620686491000	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/x0/yl748jk56vd5qyv479czydy40000gn/T/rust_mozprofileG5IyBs"
+1620686491521	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620686494257	Marionette	INFO	Listening on port 60711
+1620686494369	Marionette	WARN	TLS certificate errors will be ignored for this session
+May 11, 2021 12:41:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Subtraction" classname="com.calculator.tests.PageDashboardTests" time="1.02">
+    <system-out><![CDATA[Method tear down
+Method set up 
+]]></system-out>
+    <system-err><![CDATA[1620686496581	geckodriver	INFO	Listening on 127.0.0.1:3033
+1620686496594	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/x0/yl748jk56vd5qyv479czydy40000gn/T/rust_mozprofileI87xN4"
+1620686497267	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620686500454	Marionette	INFO	Listening on port 60842
+1620686500488	Marionette	WARN	TLS certificate errors will be ignored for this session
+May 11, 2021 12:41:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Multiply" classname="com.calculator.tests.PageDashboardTests" time="1.058">
+    <system-out><![CDATA[Method tear down
+Method set up 
+]]></system-out>
+    <system-err><![CDATA[1620686502646	geckodriver	INFO	Listening on 127.0.0.1:35247
+1620686502663	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/x0/yl748jk56vd5qyv479czydy40000gn/T/rust_mozprofileVcVamf"
+1620686503409	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620686506901	Marionette	INFO	Listening on port 60949
+1620686506961	Marionette	WARN	TLS certificate errors will be ignored for this session
+May 11, 2021 12:41:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Division" classname="com.calculator.tests.PageDashboardTests" time="1.037">
+    <system-out><![CDATA[Method tear down
+Method set up 
+]]></system-out>
+    <system-err><![CDATA[1620686509198	geckodriver	INFO	Listening on 127.0.0.1:5423
+1620686509214	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/x0/yl748jk56vd5qyv479czydy40000gn/T/rust_mozprofileLk6kjB"
+1620686510054	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620686514465	Marionette	INFO	Listening on port 61060
+1620686514579	Marionette	WARN	TLS certificate errors will be ignored for this session
+May 11, 2021 12:41:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="FractionalOperations" classname="com.calculator.tests.PageDashboardTests" time="1.513">
+    <system-out><![CDATA[Method tear down
+Method set up 
+]]></system-out>
+    <system-err><![CDATA[1620686516882	geckodriver	INFO	Listening on 127.0.0.1:7067
+1620686516894	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/x0/yl748jk56vd5qyv479czydy40000gn/T/rust_mozprofileNyg4qH"
+1620686517808	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620686522505	Marionette	INFO	Listening on port 61188
+1620686522624	Marionette	WARN	TLS certificate errors will be ignored for this session
+May 11, 2021 12:42:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="DivideByZero" classname="com.calculator.tests.PageDashboardTests" time="1.096">
+    <failure message="They are not equal:  expected [Undefined] but found [Infinity]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: They are not equal:  expected [Undefined] but found [Infinity]
+	at com.calculator.tests.PageDashboardTests.DivideByZero(PageDashboardTests.java:148)
+]]></failure>
+    <system-out><![CDATA[Method tear down
+Method set up 
+]]></system-out>
+    <system-err><![CDATA[1620686525371	geckodriver	INFO	Listening on 127.0.0.1:12126
+1620686525495	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/x0/yl748jk56vd5qyv479czydy40000gn/T/rust_mozprofilewvENas"
+1620686526395	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620686531036	Marionette	INFO	Listening on port 61332
+1620686531077	Marionette	WARN	TLS certificate errors will be ignored for this session
+May 11, 2021 12:42:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="RandomClickAndDelete" classname="com.calculator.tests.PageDashboardTests" time="1.356">
+    <system-out><![CDATA[Method tear down
+Method set up 
+]]></system-out>
+    <system-err><![CDATA[1620686533313	geckodriver	INFO	Listening on 127.0.0.1:33601
+1620686533325	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/x0/yl748jk56vd5qyv479czydy40000gn/T/rust_mozprofileKfFVer"
+1620686534285	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620686539429	Marionette	INFO	Listening on port 61462
+1620686539546	Marionette	WARN	TLS certificate errors will be ignored for this session
+May 11, 2021 12:42:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="UserShouldNotClickOnDotDirectly" classname="com.calculator.tests.PageDashboardTests" time="0.857">
+    <failure message="They are not equal:  expected [] but found [...]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: They are not equal:  expected [] but found [...]
+	at com.calculator.tests.PageDashboardTests.UserShouldNotClickOnDotDirectly(PageDashboardTests.java:184)
+]]></failure>
+    <system-out><![CDATA[Method tear down
+Method set up 
+]]></system-out>
+    <system-err><![CDATA[1620686542300	geckodriver	INFO	Listening on 127.0.0.1:38796
+1620686542330	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/x0/yl748jk56vd5qyv479czydy40000gn/T/rust_mozprofileyCXdLX"
+1620686543451	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620686548882	Marionette	INFO	Listening on port 61597
+1620686549012	Marionette	WARN	TLS certificate errors will be ignored for this session
+May 11, 2021 12:42:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="UserShouldNotClickOnOperationsDirectly" classname="com.calculator.tests.PageDashboardTests" time="0.667">
+    <failure message="They are not equal:  expected [] but found [**]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: They are not equal:  expected [] but found [**]
+	at com.calculator.tests.PageDashboardTests.UserShouldNotClickOnOperationsDirectly(PageDashboardTests.java:199)
+]]></failure>
+    <system-out><![CDATA[Method tear down
+Method set up 
+]]></system-out>
+    <system-err><![CDATA[1620686551407	geckodriver	INFO	Listening on 127.0.0.1:20655
+1620686551426	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/x0/yl748jk56vd5qyv479czydy40000gn/T/rust_mozprofile4C3qzC"
+1620686552853	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620686559207	Marionette	INFO	Listening on port 61756
+1620686559359	Marionette	WARN	TLS certificate errors will be ignored for this session
+May 11, 2021 12:42:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="MaximumZeroShouldBeOneDigit" classname="com.calculator.tests.PageDashboardTests" time="0.933">
+    <failure message="They are not equal:  expected [0] but found [000]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: They are not equal:  expected [0] but found [000]
+	at com.calculator.tests.PageDashboardTests.MaximumZeroShouldBeOneDigit(PageDashboardTests.java:215)
+]]></failure>
+    <system-out><![CDATA[Method tear down
+Method set up 
+]]></system-out>
+    <system-err><![CDATA[1620686561528	geckodriver	INFO	Listening on 127.0.0.1:22227
+1620686561652	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/x0/yl748jk56vd5qyv479czydy40000gn/T/rust_mozprofile6hcR5c"
+1620686562820	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620686568912	Marionette	INFO	Listening on port 61907
+1620686569063	Marionette	WARN	TLS certificate errors will be ignored for this session
+May 11, 2021 12:42:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="SubtractionForNegativeResult" classname="com.calculator.tests.PageDashboardTests" time="1.255">
+    <system-out><![CDATA[Method tear down
+Method set up 
+]]></system-out>
+    <system-err><![CDATA[1620686571673	geckodriver	INFO	Listening on 127.0.0.1:9961
+1620686571703	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/x0/yl748jk56vd5qyv479czydy40000gn/T/rust_mozprofileJ52Jd2"
+1620686572890	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620686579500	Marionette	INFO	Listening on port 62049
+1620686579631	Marionette	WARN	TLS certificate errors will be ignored for this session
+May 11, 2021 12:42:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
