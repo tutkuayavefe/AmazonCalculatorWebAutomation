@@ -1,15 +1,15 @@
 # TalentryChallangeProject
 
-Install JDK
-Install Maven (on Mac: brew install maven)
-Set JDK to you JAVAHOME
-Install IDE (I chose Eclipse)
-Launch Eclipse
-Click on Eclipse - Preferences - Java - Installed JRE's
-Click on Add and Set the JRE path to here: (/Java/jdk-11.0.9/Contents/Home folder) and select the box
-Click Apply and Close
-Clone this project
-Import it to Eclipse
-Open terminal and go to TalentryChallangeProject/src/main/resources
-Execute  "chmod+x geckodriver" command to activate driver
-Click run to run project
+1- Install JDK
+2- Install Maven (on Mac: brew install maven)
+3- Set JDK to you JAVAHOME
+4- Install IDE (I chose Eclipse)
+5- Launch Eclipse
+6- Click on Eclipse - Preferences - Java - Installed JRE's
+7- Click on Add and Set the JRE path to here: (/Java/jdk-11.0.9/Contents/Home folder) and select the box
+8- Click Apply and Close
+9- Clone this project
+10- Import it to Eclipse
+11- Open terminal and go to TalentryChallangeProject/src/main/resources
+12- Execute  "chmod+x geckodriver" command to activate driver
+13- Click run to run project
