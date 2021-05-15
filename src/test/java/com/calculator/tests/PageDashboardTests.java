@@ -25,6 +25,7 @@ public class PageDashboardTests extends BaseTest {
 				.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(pageDashboard.getHeadlineText())));
 		Assert.assertEquals(headlineText.getText(), pageDashboard.getExpectedHeadlineText(), "They are not equal: ");
 
+		
 	}
 
 	// this test case is to verify that addition is working fine
