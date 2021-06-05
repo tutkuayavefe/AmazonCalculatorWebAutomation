@@ -1,4 +1,4 @@
-# TalentryChallangeProject
+# AmazonCalculatorWebAutomation
 
 1. Install JDK
 2. Install Maven (on Mac: brew install maven)
